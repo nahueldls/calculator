@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    background-color: black;
+    box-sizing: content-box;
+    align-items: center;
+    display: flex;
+    float: inline-end;
+}
+
+#conteiner {
+    /* margin-top: auto; */
+    margin: 125px auto;
+    height: 400px;
+    width: 300px;
+    /* background-color: bisque; */
+    /* border-top: 1px ; */
+    /* border-top-color: whitesmoke; */
+    /* border-top-style: groove; */
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: row-reverse wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    padding: 5px;
+    height: 50px;
+    width: 50px;
+    background-color: darkslategrey;
+    /* margin-left: 10px; */
+    border-radius: 50px;
+}
+
+#cerobutton {
+    width: 110px;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.clear {
+    background-color: slategrey;
+    color: black;
+}
+
+.text {
+    font-size: 25px;
+    /* font-family: monospace; */
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+
+#pantalla {
+    flex-direction: column;
+    width: 290px;
+    height: 70px;
+    /* background-color: brown; */
+}
+
+.bigtext {
+    margin: 0 0 40px 0;
+    text-align: end;
+    color: white;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-size: 87px;
+}
